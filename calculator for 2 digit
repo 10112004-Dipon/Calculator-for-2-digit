@@ -1,0 +1,26 @@
+print("Hello, hope you are doing well!!!")    
+a=int(input("enter your first number:"))
+b=int(input("enter second number:"))
+c=a+b
+d=a*b
+e=a-b
+f=a/b
+g=a%b
+1==print("1.+")
+2==print("2.*")
+3==print("3.-")
+4==print("4./")
+5==print("5.%")
+A=int(input("enter your choice:"))
+if A==1:
+    print (c)
+elif A==2:
+    print (d)
+elif A==3:
+    print(e)
+elif A==4:
+    print(f)
+elif A==5:
+    print (g)
+else:
+     print("Invalid Choice")
